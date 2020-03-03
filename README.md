@@ -1,1 +1,1 @@
-# react-native-paper-example-clone
+# react-native-paper-example-practice
