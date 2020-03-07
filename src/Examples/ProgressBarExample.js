@@ -21,7 +21,6 @@ class ProgressBarExample extends React.Component {
         colors: { background }
       }
     } = this.props;
-    console.log("!@# Math.random(): ", Math.random());
     return (
       <View style={[styles.container, { backgroundColor: background }]}>
         <Button onPress={() => this.setState({ visible: !this.state.visible })}>
