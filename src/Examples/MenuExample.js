@@ -24,7 +24,6 @@ class MenuExample extends React.Component {
     };
     this._handleLongPress = event => {
       const { nativeEvent } = event;
-      console.log("!@# nativeEvent: ", nativeEvent);
       this.setState(
         {
           contextualMenuCoord: {
